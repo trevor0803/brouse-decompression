@@ -151,9 +151,9 @@
       // ----- Meta Pixel: Lead event -----
       if (typeof window.fbq === "function") {
         window.fbq("track", "Lead", {
-          content_name: "$47 New Patient Exam",
+          content_name: "$49 New Patient Exam",
           content_category: "Spinal Decompression",
-          value: 47.00,
+          value: 49.00,
           currency: "USD"
         });
       }
