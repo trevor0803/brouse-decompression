@@ -277,8 +277,15 @@ p{font-size:clamp(15px,1.6vw,17px)}
 
 .form-card{
   background:#fff;border:1px solid var(--line);border-radius:var(--radius-lg);
-  padding:30px 26px;box-shadow:var(--shadow);
+  box-shadow:var(--shadow);overflow:hidden;
 }
+.form-card__head{
+  background:linear-gradient(135deg,var(--navy),var(--teal));
+  color:#fff;padding:22px 26px 20px;text-align:center;
+}
+.form-card__kicker{text-transform:uppercase;letter-spacing:.1em;font-size:.74rem;opacity:.9;font-weight:600;margin:0}
+.form-card__price{font-family:'Fraunces',serif;font-size:2.6rem;font-weight:700;line-height:1.05;margin:4px 0}
+.form-card__incl{font-size:.86rem;opacity:.95;line-height:1.4;margin:0}
 .form-card h3{font-size:23px;margin-bottom:6px}
 .form-intro{font-size:14px;color:var(--muted);margin-bottom:20px}
 .field{margin-bottom:16px}
