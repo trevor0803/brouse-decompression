@@ -73,58 +73,23 @@ fbq('track', 'PageView');
     </div>
 
     <div class="form-card">
-      <form id="leadForm" novalidate>
-        <h3>Claim your $49 exam</h3>
-        <p class="form-intro">Enter your info — our team calls to confirm your time. Takes 30 seconds.</p>
-
-        <div class="field">
-          <label for="name">Full name</label>
-          <input type="text" id="name" name="name" autocomplete="name" placeholder="Jane Doe" required>
-          <span class="error" data-error="name"></span>
-        </div>
-
-        <div class="field">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" autocomplete="email" placeholder="jane@email.com" required>
-          <span class="error" data-error="email"></span>
-        </div>
-
-        <div class="field">
-          <label for="phone">Phone</label>
-          <input type="tel" id="phone" name="phone" autocomplete="tel" inputmode="tel" placeholder="(814) 555-0123" required>
-          <span class="error" data-error="phone"></span>
-        </div>
-
-        <div class="field">
-          <label for="besttime">Best time to call</label>
-          <select id="besttime" name="besttime" required>
-            <option value="" disabled selected>Choose a time…</option>
-            <option>Morning (8am–12pm)</option>
-            <option>Afternoon (12pm–4pm)</option>
-            <option>Evening (4pm–7pm)</option>
-            <option>Anytime</option>
-          </select>
-          <span class="error" data-error="besttime"></span>
-        </div>
-
-        <div class="field field-check">
-          <label class="checkbox">
-            <input type="checkbox" id="consent" name="consent" required>
-            <span>I agree to be contacted by Brouse Chiropractic about my appointment.</span>
-          </label>
-          <span class="error" data-error="consent"></span>
-        </div>
-
-        <button type="submit" class="btn btn-primary btn-block" id="submitBtn">Claim My $49 Exam</button>
-        <p class="form-fineprint">No spam. We only use your info to schedule your visit.</p>
-      </form>
-
-      <div class="form-success" id="formSuccess" hidden>
-        <div class="success-icon">✓</div>
-        <h3>You're all set!</h3>
-        <p>Thanks, <span id="successName">there</span> — your request is in. We'll call at your chosen time to lock in your <strong>$49 exam</strong>.</p>
-        <p class="success-sub">Need us sooner? Call <a href="tel:+18144729355">(814) 472-9355</a>.</p>
-      </div>
+      <iframe
+          src="https://api.leadconnectorhq.com/widget/form/ID3iA1CH60EwumyIoow7"
+          style="width:100%;height:600px;border:none;border-radius:8px"
+          id="inline-ID3iA1CH60EwumyIoow7"
+          data-layout="{'id':'INLINE'}"
+          data-trigger-type="alwaysShow"
+          data-trigger-value=""
+          data-activation-type="alwaysActivated"
+          data-activation-value=""
+          data-deactivation-type="neverDeactivate"
+          data-deactivation-value=""
+          data-form-name="Decompression Form"
+          data-height="555"
+          data-layout-iframe-id="inline-ID3iA1CH60EwumyIoow7"
+          data-form-id="ID3iA1CH60EwumyIoow7"
+          title="Decompression Form">
+      </iframe>
     </div>
 
   </div>
@@ -259,5 +224,6 @@ fbq('track', 'PageView');
 </footer>
 
 <script src="main.js"></script>
+<script src="https://link.msgsndr.com/js/form_embed.js"></script>
 </body>
 </html>
