@@ -344,6 +344,15 @@ body.nav-open .main-nav a{padding:12px 6px;border-radius:10px}
 body.nav-open .main-nav a:hover{background:var(--bg-alt)}
 body.nav-open .main-nav .nav-cta{text-align:center}
 
+/* your provider */
+.doctor{display:grid;gap:32px;align-items:center;max-width:980px;margin:0 auto;text-align:center}
+.doctor__photo{max-width:280px;margin:0 auto}
+.doctor__photo img{width:100%;border-radius:var(--radius);box-shadow:var(--shadow);aspect-ratio:1;object-fit:cover}
+.doctor__copy h2{margin-bottom:14px}
+.doctor__copy p{color:var(--body);margin-bottom:14px}
+.doctor__loc{font-weight:600;color:var(--ink)}
+.doctor__copy .btn{margin-top:8px}
+
 /* ============================================================
    Responsive
    ============================================================ */
@@ -364,6 +373,8 @@ body.nav-open .main-nav .nav-cta{text-align:center}
   .book-grid{grid-template-columns:1fr 1.05fr}
   .footer-grid{grid-template-columns:1.4fr 1fr}
   .section{padding:80px 0}
+  .doctor{grid-template-columns:300px 1fr;gap:48px;text-align:left}
+  .doctor__photo{max-width:none}
 }
 @media(max-width:899px){
   body.nav-open{overflow:hidden}
