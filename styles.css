@@ -80,6 +80,8 @@ p{font-size:clamp(15px,1.6vw,17px)}
 }
 .header-inner{display:flex;align-items:center;gap:16px;height:72px}
 .brand{display:flex;align-items:center;gap:11px;font-weight:700;color:var(--navy)}
+.brand-logo{height:40px;width:auto;display:block}
+.brand-logo--footer{height:34px;background:#fff;padding:9px 14px;border-radius:10px}
 .brand-mark{
   width:42px;height:42px;flex:0 0 42px;border-radius:12px;
   background:linear-gradient(135deg,var(--navy),var(--teal));
