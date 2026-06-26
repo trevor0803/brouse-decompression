@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex,nofollow">
+<title>Book an Appointment — Brouse Chiropractic</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,900&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+  body{background:#f4f7fb}
+  .booking-wrap{max-width:900px;margin:0 auto;padding:30px 20px 64px}
+  .booking-head{text-align:center;margin:8px 0 26px}
+  .booking-head a{display:inline-block}
+  .booking-head img{height:54px;width:auto;margin:0 auto 18px;display:block}
+  .booking-head h1{font-size:clamp(26px,4vw,34px);margin:0 0 8px}
+  .booking-head p{color:var(--muted);margin:0;font-size:16px}
+  .booking-frame{background:#fff;border-radius:16px;box-shadow:0 14px 40px rgba(19,41,75,.12);overflow:hidden}
+  iframe#booking{width:100%;border:none;min-height:720px;display:block}
+</style>
+</head>
+<body>
+  <div class="booking-wrap">
+    <div class="booking-head">
+      <a href="/"><img src="images/logo.webp" alt="Brouse Chiropractic"></a>
+      <h1>Book Your Appointment</h1>
+      <p>Pick a time that works for you — it only takes a minute.</p>
+    </div>
+    <div class="booking-frame">
+      <iframe id="booking" src="https://api.leadconnectorhq.com/widget/bookings/brousechiropractic" scrolling="no"></iframe>
+    </div>
+  </div>
+  <script src="https://link.msgsndr.com/js/form_embed.js" type="text/javascript"></script>
+</body>
+</html>
